@@ -1,0 +1,20 @@
+train and test variables contains over 561 columns of quantitative data.
+
+trainActivity and testActivity contains description of number coded activity in train and test dataset
+
+trainPerson and testPerson contain data which enable to associate rows from train and test data to a particular subject
+
+
+Data, Activity and Person are simple union of previous datasets respectively
+
+
+Columns is a vector of descriptive names for Data dataset created by reading feature.txt file
+
+subcolumns is a subset of columns which contains only names for columns which use mean or std measurement
+
+subdata is subset of data and contains only variables which measure mean or std
+
+
+FinalData contins complete dataset as for step 4 in assignement and contains also descriptive names for activities and number coded person identifier
+
+AggregatedData contains data grouped on activities and Person and contains mean of all numeric varaibles at the level of grouping
